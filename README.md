@@ -1,3 +1,11 @@
+基于https://github.com/vegasbrianc/prometheus 20170-05-24 版本
+主要修改：
+1、修改grafana 密码为admin
+2、修改grafana Dashboard ，放在目录Winhong 下
+3、增加节点机器启动compose 放在cadvisor 下
+4、增加一个主节点不部署cadvisor 及node exportor 的compose 文件 docker-compose-noca.yml
+
+
 # A Prometheus & Grafana docker-compose stack
 Here's a quick start to stand-up a [Prometheus](http://prometheus.io/) stack containing Prometheus, Grafana and Node scraper to monitor your Docker infrastructure. A big shoutout to [philicious](https://github.com/philicious) for kicking this project off!
 
